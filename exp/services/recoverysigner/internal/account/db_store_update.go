@@ -3,7 +3,7 @@ package account
 import (
 	"database/sql"
 
-	"github.com/lib/pq"
+	"github.com/bukforks/pq"
 )
 
 func (s *DBStore) Update(a Account) error {

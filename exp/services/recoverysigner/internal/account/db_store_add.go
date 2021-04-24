@@ -1,6 +1,6 @@
 package account
 
-import "github.com/lib/pq"
+import "github.com/bukforks/pq"
 
 func (s *DBStore) Add(a Account) error {
 	tx, err := s.DB.Beginx()

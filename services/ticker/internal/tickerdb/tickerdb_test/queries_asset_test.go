@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	_ "github.com/lib/pq"
+	_ "github.com/bukforks/pq"
 	migrate "github.com/rubenv/sql-migrate"
 	"github.com/stellar/go/services/ticker/internal/tickerdb"
 	"github.com/stellar/go/support/db/dbtest"

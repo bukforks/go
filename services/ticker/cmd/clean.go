@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/lib/pq"
+	"github.com/bukforks/pq"
 	"github.com/spf13/cobra"
 	"github.com/stellar/go/services/ticker/internal/tickerdb"
 )

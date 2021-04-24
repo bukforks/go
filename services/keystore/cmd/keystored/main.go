@@ -20,7 +20,7 @@ import (
 	"github.com/stellar/go/services/keystore"
 	"github.com/stellar/go/support/log"
 
-	_ "github.com/lib/pq"
+	_ "github.com/bukforks/pq"
 )
 
 var keystoreMigrations = &migrate.FileMigrationSource{

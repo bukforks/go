@@ -7,7 +7,7 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 	"github.com/guregu/null"
-	"github.com/lib/pq"
+	"github.com/bukforks/pq"
 	"github.com/stellar/go/support/errors"
 	"github.com/stellar/go/xdr"
 )

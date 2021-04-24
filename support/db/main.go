@@ -21,7 +21,7 @@ import (
 	"github.com/stellar/go/support/errors"
 
 	// Enable postgres
-	_ "github.com/lib/pq"
+	_ "github.com/bukforks/pq"
 )
 
 const (

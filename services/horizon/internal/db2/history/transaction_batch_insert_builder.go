@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/guregu/null"
-	"github.com/lib/pq"
+	"github.com/bukforks/pq"
 
 	"github.com/stellar/go/ingest"
 	"github.com/stellar/go/services/horizon/internal/toid"

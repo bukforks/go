@@ -1,7 +1,7 @@
 package pg
 
 import (
-	"github.com/lib/pq"
+	"github.com/bukforks/pq"
 	"github.com/stellar/go/support/errors"
 )
 

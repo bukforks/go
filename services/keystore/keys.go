@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/lib/pq"
+	"github.com/bukforks/pq"
 	"github.com/stellar/go/support/errors"
 	"github.com/stellar/go/support/render/problem"
 )

@@ -3,7 +3,7 @@ package cmd
 import (
 	"context"
 
-	"github.com/lib/pq"
+	"github.com/bukforks/pq"
 	"github.com/spf13/cobra"
 	ticker "github.com/stellar/go/services/ticker/internal"
 	"github.com/stellar/go/services/ticker/internal/tickerdb"

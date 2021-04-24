@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/lib/pq"
+	"github.com/bukforks/pq"
 )
 
 // This file contains implementations of the sql.Scanner interface for stellar xdr types

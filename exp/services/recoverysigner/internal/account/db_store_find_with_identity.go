@@ -1,6 +1,6 @@
 package account
 
-import "github.com/lib/pq"
+import "github.com/bukforks/pq"
 
 func (s *DBStore) FindWithIdentityAuthMethod(t AuthMethodType, value string) ([]Account, error) {
 	query := `SELECT account_id
